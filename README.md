@@ -8,10 +8,10 @@ Nessa atividade, você deverá montar a página inicial do projeto escolhido, a 
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Caio Rezende Barreto Sendin
+- Matricula: 881629
+- Proposta de projeto escolhida: Diretório de Receitas
+- Breve descrição sobre seu projeto: Um site de receitas em HTML e CSS com páginas individuais para cada receita, acessadas por cards interativos
 
 
 ## Print do esboço criada
