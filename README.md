@@ -13,11 +13,9 @@ Nessa atividade, você deverá montar a página inicial do projeto escolhido, a 
 - Proposta de projeto escolhida: Diretório de Receitas
 - Breve descrição sobre seu projeto: Um site de receitas em HTML e CSS com páginas individuais para cada receita, acessadas por cards interativos
 
-
 ## Print do esboço criada
 
-<<  COLOQUE A IMAGEM AQUI >>
-
+![Esboço](public/imgs/esboco.png)
 
 ## Print da home-page criada
 
