@@ -23,32 +23,49 @@
     <header>
         <nav>
             <div class="logo">
-                <img src="imgs/logo.svg" alt="Logo">
+                <img src="imgs/logo-invert.svg" alt="Logo">
             </div>
             <ul>
                 <li><a href="">Home</a></li>
                 <li><a href="">Categorias</a></li>
                 <li><a href="">Contato</a></li>
-                <li><a href="">Login</a></li>
             </ul>
         </nav>
     </header>
 
-    <div class="container">
-        <h1>O que você quer preparar hoje?</h1>
-        <div id="select-btn">
-            <div id="select-value">Selecione o prato</div>
+    <main class="container">
+        <div class="container-center">
+            <h1 style="text-align: center;">O que você quer preparar hoje?</h1>
+            <select id="select-btn">
+                <option value="" disabled selected>
+                    Selecione um prato
+                    <i data-lucide="chevron-up"></i>
+                </option>
+                <option value="item1">Entradas</option>
+                <option value="item2">Pratos Principais</option>
+                <option value="item3">Acompanhamentos</option>
+                <option value="item4">Sobremesas</option>
+            </select>
+        </div>
+    </main>
 
-            <div id="chevrons">
-                <i data-lucide="chevron-down"></i>
-                <i data-lucide="chevron-up"></i>
+    <section class="container">
+        <div class="grid">
+            <div class="grid-item">
+                <img src="" alt="Receita">
+            </div>
+            <div class="grid-item">
+                <img src="" alt="Receita">
+            </div>
+            <div class="grid-item">
+                <img src="" alt="Receita">
             </div>
         </div>
-    </div>
-
-    <script src="app.js"></script>
+    </section>
 
     <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <script src="app.js"></script>
 
 </body>
 
