@@ -19,4 +19,7 @@ Nessa atividade, você deverá montar a página inicial do projeto escolhido, a 
 
 ## Print da home-page criada
 
-<<  COLOQUE A IMAGEM AQUI >>
+![Home](public/imgs/telas/home.png)
+![Pratos](public/imgs/telas/pratos.png)
+![Contato e Footer](public/imgs/telas/contato-e-footer.png)
+![Receita](public/imgs/telas/receita.png)
