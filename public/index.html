@@ -26,14 +26,14 @@
                 <img src="imgs/logo-invert.svg" alt="Logo">
             </div>
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Categorias</a></li>
-                <li><a href="">Contato</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#categorias">Categorias</a></li>
+                <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
     </header>
 
-    <main class="container">
+    <main class="container" id="home">
         <div class="container-center">
             <h1 style="text-align: center;">O que você quer preparar hoje?</h1>
             <select id="select-btn">
@@ -46,7 +46,7 @@
         </div>
     </main>
 
-    <section class="container">
+    <section class="container" id="categorias">
         <h1>Entradas</h1>
         <div class="grid">
             <div class="grid-item">
@@ -93,6 +93,24 @@
             </div>
         </div>
     </section>
+
+    <article class="container" id="contato">
+        <h1>Contato</h1>
+        <form action="index.html">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </article>
+
+    <footer><p>© 2025 Caio Sendin. Todos os direitos reservados.</p></footer>
 
     <script src="https://unpkg.com/lucide@latest"></script>
     
